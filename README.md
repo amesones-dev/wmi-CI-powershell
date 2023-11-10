@@ -3,7 +3,7 @@ A collection of Powershell scripts for:
 * Simple CI items database using agentless WMI monitoring
 * General support for managed Windows hosts
 * Plugin for Xen Citrix Server brokered desktops
-* Plugin for Junos Pulse VPN connected clients 
+* Plugin for network scanning
 
 **Features**
 * Host scanning methods: Read hosts from inventory,  AD scanning, Citrix Broker scanning, IP range scanning
