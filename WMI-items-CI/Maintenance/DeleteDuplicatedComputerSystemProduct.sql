@@ -1,0 +1,8 @@
+WITH DUPLICATES AS
+(
+	SELECT *,ROW_NUMBER() OVER (PARTITION BY ["__SERVER"],["IdentifyingNumber"]  ORDER BY ["__Server"] ) AS TOTAL
+	FROM ComputerSystemProduct
+)
+
+
+DELETE FROM DUPLICATES WHERE TOTAL > 1
