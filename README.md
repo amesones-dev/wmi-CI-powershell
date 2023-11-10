@@ -15,8 +15,6 @@ A collection of Powershell scripts for:
 * Dynamic Excel sheet produces quick dashboards for fleet status and CI management
 * SQL database maintenance scripts provided
 
-Instructions
-* One script per scanning method provided
-* Once discovered
+
 
   
